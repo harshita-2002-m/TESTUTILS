@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <title>Testutils</title>
+</head>
+<body>
+    <!-- hello goodmorning!
+    {{ name }} where r u from {{place}} -->
+<h1> Welcome to the text analyzer. Enter your text below</h1>
+<form action ='/analyze' method = 'get'>
+    <textarea name="text" style='width: 356px; height: 107px;'></textarea><br>
+
+    <input type="checkbox" name="removepunc"> Remove Punctuations <br>
+    <input type="checkbox" name="fullcaps"> UPPERCASE <br>
+    <input type="checkbox" name="extraspaceremover"> EXTRA SPACE REMOVER<br>
+    <input type="checkbox" name="charcount">CHARACTER COUNT<br>
+    <input type="checkbox" name="newlineremover">NEW LINE REMOVER<br>
+
+    <button type = 'submit'> Analyze text</button>
+</form>
+</body>
+</html>
